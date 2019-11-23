@@ -1,0 +1,9 @@
+{
+  "name": "lab-ts-ddd-movies",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:giodelabarrera/lab-ts-ddd-movies.git",
+  "author": "Giorgio de la Barrera <giodelabarrera@gmail.com>",
+  "license": "MIT"
+}
