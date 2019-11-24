@@ -6,6 +6,10 @@
   "repository": "git@github.com:giodelabarrera/lab-ts-ddd-movies.git",
   "author": "Giorgio de la Barrera <giodelabarrera@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json"
+  },
   "devDependencies": {
     "prettier": "^1.19.1",
     "tslint": "^5.20.1",
