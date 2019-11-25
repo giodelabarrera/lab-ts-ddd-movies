@@ -1,5 +1,5 @@
-import MovieRepository, {SearchProps, RetrieveProps} from '../domain/MovieRepository'
-import Movie from '../domain/Movie'
+import MovieRepository, {SearchProps, RetrieveProps} from '../../domain/MovieRepository'
+import Movie from '../../domain/Movie'
 
 class HTTPMovieRepository implements MovieRepository {
   async search({query}: SearchProps) {
