@@ -1,18 +1,18 @@
 import Movie from './Movie'
 import MovieId from './MovieId'
 
-type SearchProps = {
+export type SearchProps = {
   query: string
 }
 
-type RetrieveProps = {
+export type RetrieveProps = {
   id: MovieId
 }
 
 interface MovieRepository {
-  search({query}: SearchProps): Movie[]
+  search({query}: SearchProps): Promise<Movie[]>
 
-  retrieve({id}: RetrieveProps): Movie
+  retrieve({id}: RetrieveProps): Promise<Movie>
 }
 
 export default MovieRepository
